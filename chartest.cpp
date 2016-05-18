@@ -5,12 +5,15 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 using namespace std;
 bool stringFind(string s1){
-for(int i = 0; i< s1.size()-2; i++){
-char c = 'c', b = ':', e = '\\';
-if((char)s1[i]==c && (char)s1[i+1]==b && (char)s1[i+2]==e )
+char c = 'c', b = ':';
+
+for (int i = 0; i< s1.size() - 2; i++){
+	if (s1 == ""){ break; }
+if((char)s1[i]==c && (char)s1[i+1]==b  )
 {return true;}
-else {return false;}
+else { continue; }
 }
+return false;
 }
 
 
@@ -33,7 +36,7 @@ int main(int argc, char** argv) {
 		cout << s;
 		if (stringFind(s)){
 		i--;
-		cout << i;
+		cout << "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
 		break;
 		}
 		else { i++; }
