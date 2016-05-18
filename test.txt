@@ -1,0 +1,32 @@
+rawwrite dd for windows version 0.3.
+Written by John Newbigin <jn@it.swin.edu.au>
+This program is covered by the GPL.  See copying.txt for details
+Win32 Available Volume Information
+\\.\Volume{6bd0ac7a-7732-11e5-93d8-806e6f6e6963}\
+  link to \\?\Device\HarddiskVolume1
+  fixed media
+  Not mounted
+
+\\.\Volume{fda52d99-7bbd-11e5-abae-240a649027d0}\
+  link to \\?\Device\HarddiskVolume4
+  removeable media
+  Mounted on f:\
+
+\\.\Volume{6bd0ac7b-7732-11e5-93d8-806e6f6e6963}\
+  link to \\?\Device\HarddiskVolume2
+  fixed media
+  Mounted on c:\
+
+\\.\Volume{6bd0ac7c-7732-11e5-93d8-806e6f6e6963}\
+  link to \\?\Device\HarddiskVolume3
+  fixed media
+  Mounted on d:\
+
+\\.\Volume{f98c8fc1-775b-11e5-bd96-806e6f6e6963}\
+  link to \\?\Device\CdRom0
+  CD-ROM
+  Mounted on e:\
+
+
+NT Block Device Objects
+\\?\Device\CdRom0
